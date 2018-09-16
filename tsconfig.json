@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "module": "commonjs",
+    "target": "es2015",
+    "lib": ["es2015", "dom", "esnext.asynciterable"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": false,
+    "noImplicitReturns": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false
+  },
+  "exclude": ["node_modules", "lib", "tests"]
+}

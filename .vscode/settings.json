@@ -1,0 +1,5 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.tabWith": 2,
+  "editor.fontSize": 15
+}
