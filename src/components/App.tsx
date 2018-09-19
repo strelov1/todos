@@ -2,6 +2,8 @@ import * as React from "react";
 
 import { Item } from "../types/";
 import TodoList from "./TodoList";
+import Menu from "./Menu";
+import menu from "../menu";
 
 interface AppProps {
   todoList: Item[];
@@ -23,6 +25,7 @@ const App: React.SFC<AppProps> = ({ todoList, addItem }) => {
         <input type="text" ref={input} autoFocus={true} />
         <button onClick={handleOneSubmit}>Add</button>
       </div>
+      <Menu menu={menu} />
     </div>
   );
 };

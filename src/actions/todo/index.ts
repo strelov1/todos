@@ -10,7 +10,6 @@ export interface AddAction {
   type: ADD;
   payload: Item;
 }
-
 export interface DeleteAction {
   type: DEL;
   payload: number;
